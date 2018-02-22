@@ -5,6 +5,8 @@ SCRIPTDIR=$(dirname "$SCRIPT")
 # Edit these variables to your project settings
 PROJDIR=~/Documents/projects
 GAMESOURCE=$PROJDIR/mygame
+DESKTOP=$SCRIPTDIR/mygame.desktop
+ICON=$SCRIPTDIR/mygame.png
 IMGDIR=$PROJDIR/MyGame.AppDir
 APPIMAGETOOL=/usr/local/bin/appimagetool
 OUTFILE=$PROJDIR/MyGame.AppImage
@@ -13,8 +15,7 @@ OUTFILE=$PROJDIR/MyGame.AppImage
 TMPDIR=/tmp
 GAMEDIR=$IMGDIR/usr/games
 APPRUN=$SCRIPTDIR/AppRun
-DESKTOP=$SCRIPTDIR/mygame.desktop
-ICON=$SCRIPTDIR/mygame.png
+
 LOVE=/usr/bin/love
 CARE=/usr/bin/care
 MKDIR=/bin/mkdir
