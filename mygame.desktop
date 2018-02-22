@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Starhack
+Exec=AppRun
+Icon=starhack
+Type=Application
+Categories=Game;
+Name[en_US]=mygame.desktop
